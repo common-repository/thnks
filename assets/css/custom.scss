@@ -1,0 +1,56 @@
+body {
+  font-family: 'Nunito Sans', sans-serif;
+}
+#wpcontent{
+  background-color: #f8f8ff;
+}
+#pills-tab{
+  li{
+    button{
+      background-color: #003e9b;
+      margin-right: 10px;
+      color:#FFFFFF;
+    }
+    .active{
+      background-color: #0d6efd;
+    }
+  }
+}
+a.reset-color{
+  margin-left: 10px;
+  text-decoration: underline;
+  &:hover{
+    cursor:pointer;
+  }
+}
+form{
+  h2{
+    display: none;
+  }
+  .container-label th{
+    width: 300px;
+  }
+  p.submit input{
+    font-size: 14px !important;;
+    background-color: #0d6efd !important;
+    border-color: #0d6efd !important;;
+    padding:9px 20px  !important;
+    transition: all .3s;
+    &:hover{
+      background-color: #0a62e5 !important;
+    }
+  }
+  .w-600{
+    input{
+      width: 600px;
+    }
+  }
+  .w-300{
+    input{
+      width: 300px;
+    }
+  }
+}
+
+
+
